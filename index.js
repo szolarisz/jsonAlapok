@@ -86,7 +86,7 @@ const kiszurt2 = szinTomb.filter( (szin) => szin.cId > 3 );
 console.log( kiszurt2 );
 
 console.log("---\nSzűrés szövegre") //regex
-let regex = /^B\w*/g;
+let regex = /^B\w*/;
 const kiszurt3 = szinTomb.filter( (szin) => {
     // console.log(`szin -> ${szin.cName} (${regex.test(szin.cName)})` );
     if( szin === null ) return false;
